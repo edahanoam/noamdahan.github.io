@@ -32,42 +32,17 @@
 <!--  {% endfor %}-->
 <!--{% endif %}-->
 ---
-layout: default
+layout: archive
 title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
 
 {% if site.author.googlescholar %}
-  <div class="wordwrap">
-    You can also find my articles on
-    <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.
-  </div>
+  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
 {% endif %}
 
-# Publications
+{% include base_path %}
 
-## Accepted papers
-
-- **The State and Fate of Summarization Datasets**
-  **Noam Dahan**, Coauthor 1, Coauthor 2
-  *NAACL 2025*
-  [Paper](https://aclanthology.org/2025.naacl-long.372/) · [Code](https://github.com/your-repo)
-  <!-- Example image (optional): -->
-  <!-- ![Overview figure](/images/summarization-figure.png) -->
-
-- _Add more accepted papers here..._
-
----
-
-## Preprints
-
-- **Title of Preprint**
-  **Noam Dahan**, Coauthor A, Coauthor B
-  *Preprint / under review*
-  [PDF](#) · [Code](#)
-
-- _Add more preprints here..._
-
-
+...
 
