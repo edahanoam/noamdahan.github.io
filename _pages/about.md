@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Shalom and Willkommen :)"
+title: "Shalom and Willkommen!"
 author_profile: true
 redirect_from: 
   - /about/
