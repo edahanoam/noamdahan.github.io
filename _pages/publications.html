@@ -6,43 +6,25 @@
 <!-- -&#45;&#45;-->
 
 <!--{% if site.author.googlescholar %}-->
-<!--  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>-->
-<!--{% endif %}-->
-
-<!--{% include base_path %}-->
-
-<!--&lt;!&ndash; New style rendering if publication categories are defined &ndash;&gt;-->
-<!--{% if site.publication_category %}-->
-<!--  {% for category in site.publication_category  %}-->
-<!--    {% assign title_shown = false %}-->
-<!--    {% for post in site.publications reversed %}-->
-<!--      {% if post.category != category[0] %}-->
-<!--        {% continue %}-->
-<!--      {% endif %}-->
-<!--      {% unless title_shown %}-->
-<!--        <h2>{{ category[1].title }}</h2><hr />-->
-<!--        {% assign title_shown = true %}-->
-<!--      {% endunless %}-->
-<!--      {% include archive-single.html %}-->
-<!--    {% endfor %}-->
-<!--  {% endfor %}-->
-<!--{% else %}-->
-<!--  {% for post in site.publications reversed %}-->
-<!--    {% include archive-single.html %}-->
-<!--  {% endfor %}-->
-<!--{% endif %}-->
 ---
-layout: archive
+layout: single
 title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
+# Publications
 
-{% include base_path %}
+## Accepted papers
 
-...
+- **The State and Fate of Summarization Datasets**
+  **Noam Dahan**, Coauthor 1, Coauthor 2
+  *NAACL 2025*
+  [Paper](https://aclanthology.org/2025.naacl-long.372/) · [Code](https://github.com/your-repo)
 
+## Preprints
+
+- **Title of Preprint**
+  **Noam Dahan**, Coauthor A, Coauthor B
+  *Preprint / under review*
+  [PDF](#) · [Code](#)
