@@ -1,12 +1,11 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "Shalom and Willkommen!"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
-# Shalom and Willkommen!
 
 I am a **research fellow** at the Max Planck Institute for Software Systems, working with [Dr. Abhilasha Ravichander](https://lasharavichander.github.io/).I care about how NLP systems interact with real people and real information. My research focuses on evaluation and on building methods that help models reflect diverse users and improve our information ecosystem. We are currently working on NLP questions related to factuality, framing, omission, and nuanced forms of misleading content.
 
