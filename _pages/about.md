@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a **research fellow** at the Max Planck Institute for Software Systems, working with [Dr. Abhilasha Ravichander](https://lasharavichander.github.io/).  
+I'm Noam, I am a **research fellow** at the Max Planck Institute for Software Systems, working with [Dr. Abhilasha Ravichander](https://lasharavichander.github.io/).  
 
 I care a lot about how NLP systems meet real people and real information. My work focuses on evaluation and on building methods that help models reflect diverse users and support healthier information ecosystems. We are currently working on NLP questions related to factuality, framing, omission, and nuanced forms of misleading content. I'd love to connect if you're working similar topics! 
 
